@@ -52,3 +52,7 @@ Type your questions about cybersecurity and the bot will respond based on predef
 Exit:
 Type "exit", "stop", "bye", or "goodbye" to end the conversation.
 
+Image 1:
+This is the welcoming Message from the bot.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2e9d4843-1719-4572-bba3-1a0e3c5512c9" />
+
