@@ -7,24 +7,33 @@ Typing Effect: The bot has a simulated typing effect, making the interaction mor
 Image Display: The bot displays a logo image in an ASCII art format.
 Voice: The bot can play a voice message when required.
 Exit Command: Users can type "exit", "stop", "bye", or "goodbye" to end the conversation.
+
+
 How It Works
+
 Main Functionality
+
 Greeting: Upon launch, the bot greets the user and asks for their name.
 User Input: The bot accepts questions related to cybersecurity. It filters out irrelevant words and looks for keywords in the question to match appropriate responses.
 Bot Response: The bot will provide information on topics like firewalls, passwords, VPNs, phishing, malware, and other cybersecurity concepts.
 Exit Command: The user can exit the conversation by typing exit words such as "exit", "stop", "bye", or "goodbye".
 Interactive Feedback: The bot provides helpful responses and engages in a friendly manner.
+
+
 Methods and Components
 mainPrompt Class:
 Displays a welcome message and interacts with the user.
 Validates user input (name and question).
 Searches for matching responses to user questions about cybersecurity.
+
 Handles exit commands.
 logo_image Class:
 Loads and resizes the logo image (cyberLogo.jpg).
 Converts the image into ASCII characters and displays it on the console.
 voice Class:
 Plays an audio file (AIVoice.wav) to enhance the interaction.
+
+
 Supporting Methods:
 AddBotTypingEffect: Simulates typing effect for the bot's responses.
 StoreBotResponses: Stores predefined cybersecurity responses.
@@ -32,6 +41,8 @@ StoreIgnoredWords: Stores a list of common words that should be ignored during q
 ProcessQuestion: Filters the user’s input and matches keywords to bot responses.
 ValidateUserName: Ensures that the user enters a valid name.
 ValidateUserQuestion: Ensures the user enters a valid question.
+
+
 How to Use
 Run the Program:
 Start the bot by running the application in your IDE.
