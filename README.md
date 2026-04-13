@@ -56,3 +56,7 @@ Image 1:
 This is the welcoming Message from the bot.
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2e9d4843-1719-4572-bba3-1a0e3c5512c9" />
 
+Image 2:
+This IMage shows the response between the user and the bot.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/44d982d8-76ff-415d-96f7-b2200e0a3620" />
+
